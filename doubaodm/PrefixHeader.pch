@@ -1,0 +1,87 @@
+//
+//  PrefixHeader.pch
+//  doubaodm
+//
+//  Created by 范保莹 on 2017/1/20.
+//  Copyright © 2017年 TAG. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define navColor [UIColor colorWithRed:0/255.0 green:122/255.0 blue:183/255.0 alpha:1]
+#define threadColor [UIColor colorWithRed:230/255.0 green:230/255.0 blue:230/255.0 alpha:1]
+
+#define DBAllURL @"http://192.168.10.78:8083/share_tagApp/"
+#define DBLYURL @"http://192.168.10.24:8080/share_tagApp/"
+#define DBZHLURL @"http://192.168.10.115:8080/share_tagApp/"
+
+//检查手机号
+#define checkPhone @"tagApp/adminUser/checkPhone"
+//登录接口
+#define loginOrRegister @"tagApp/userInfo/login"
+
+//部门评论信息接口
+#define getCircleList @"tagApp/circleMessage/getCircleList"
+
+//获取信息列表接口
+#define getSalesManList @"tagApp/messageMerchantInfo/getSalesManList"
+
+//发送聊天信息接口
+#define sendMerchantMessage @"tagApp/messageMerchantInfo/sendMerchantMessage"
+
+//聊天记录接口
+#define getMerchantRecord @"tagApp/messageMerchantInfo/getMerchantRecord"
+
+//主管经理老板分配商户列表接口
+#define getBusinessList @"tagApp/workInfo/getBusinessList"
+
+//主管经理老板分配商户详情接口
+#define getBusinessInfo @"tagApp/workInfo/getBusinessInfo"
+
+//个人中心接口
+#define getUserInfo @"tagApp/userInfo/getUserInfo"
+
+
+
+//商户圈
+#define getSalesmanBusinessList @"tagApp/SalesmanBusiness/getSalesmanBusinessList"
+
+//聊天信息
+#define addMessageTagInfo @"tagApp/tagMessageInfo/addMessageTagInfo"
+
+//留言反馈
+#define getSalesmanBusinessMessageList @"tagApp/SalesmanBusiness/getSalesmanBusinessMessageList"
+
+
+
+
+//手机号查找商户接口
+#define getSalesmanSearchBusinessman @"tagApp/SalesmanBusiness/getSalesmanSearchBusinessman"
+
+//移动到关联商户
+#define AddBusinessmanToSalesmanList @"tagApp/SalesmanBusiness/AddBusinessmanToSalesmanList"
+
+//获取不同类型的商户
+#define getSalesmanBusinessFilterByStepstateList @"tagApp/SalesmanBusiness/getSalesmanBusinessFilterByStepstateList"
+
+
+//发表留言评论
+#define addMessageTagCommentInfo @"tagApp/tagMessageInfo/addMessageTagCommentInfo"
+
+
+//搜索业务员
+#define getSearchSalesmanList @"tagApp/SalesmanBusiness/getSearchSalesmanList"
+
+//主管下的业务员圈
+#define getSalesmanListOfCharge @"tagApp/SalesmanBusiness/getSalesmanListOfCharge"
+
+//经理下的主管圈
+#define getChargeListOfManager @"tagApp/SalesmanBusiness/getChargeListOfManager"
+
+
+#endif /* PrefixHeader_pch */
